@@ -18,6 +18,7 @@ public class ShortestPathCalculator {
             return "No path between " + word1 + " and " + word2 + "!";
         }
 
+
         Map<String, Integer> distances = new HashMap<>(); // 存储节点到起始节点的距离
         Map<String, String> previous = new HashMap<>(); // 存储节点的前一个节点
         Set<String> visited = new HashSet<>(); // 存储已访问过的节点
